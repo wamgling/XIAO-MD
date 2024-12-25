@@ -69,7 +69,7 @@ cmd({
 
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> CREATED BY KG TECH`
+            caption: `${movieInfo}\n> CREATED BY SUBZERO`
         }, { quoted: mek });
     } catch (e) {
         console.error(e);
