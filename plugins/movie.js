@@ -46,7 +46,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬SUBZEROV4 MOVIE SERCH🎬*
+*🎬SUBZERO MOVIE SERCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
