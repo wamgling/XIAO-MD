@@ -31,7 +31,7 @@ cmd({
 
     pattern: "settings",
 
-    react: "🎛️",
+    react: "⚙️",
 
     alias: ["setting","env"],
 
@@ -48,25 +48,59 @@ cmd({
 async(conn, mek, m,{from, l, quoted, body, isCmd, umarmd, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 
 try{
-let madeSetting =`*╭────⚃* *SETTINGS* *⚃*
-*┊* *♾️ AUTO_READ_STATUS:* ➠ ${config.AUTO_READ_STATUS}
-*┊* *♾️ MODE:* ➠ ${config.MODE} 
-*┊* *♾️ AUTO_VOICE:* ➠ ${config.AUTO_VOICE} 
-*┊* *♾️ AUTO_STICKER:* ➠ ${config.AUTO_STICKER} 
-*┊* *♾️ AUTO_REPLY:* ➠ ${config.AUTO_REPLY} 
-*┊* *♾️ ALIVE_IMG:* ➠ ${config.ALIVE_IMG} 
-*┊* *♾️ ALIVE_MSG:* ➠ ${config.ALIVE_MSG} 
-*┊* *♾️ ANTI_LINK:* ➠ ${config.ANTI_LINK} 
-*┊* *♾️ ANTI_BAD:* ➠ ${config.ANTI_BAD} 
-*┊* *♾️ PREFIX:* ➠ [${config.PREFIX}]
-*┊* *♾️ FAKE_RECORDING:* ➠ ${config.FAKE_RECORDING} 
-*┊* *♾️ AUTO_REACT:* ➠ ${config.AUTO_REACT} 
-*┊* *♾️ HEART_REACT:* ➠ ${config.HEART_REACT} 
-*┊* *♾️ OWNER_REACT:* ➠ ${config.OWNER_REACT} 
-*┊* *♾️ BOT_NAME:* ➠ ${config.BOT_NAME}
+let madeSetting =`
+*⟝━━━⟢ *SUBZERO BOT SETTINGS* ⟣━━━⟞*
 
-> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ
-*╰═════════════⚃*
+
+*🔎 AUTO_READ_STATUS:* ➠ ${config.AUTO_READ_STATUS}
+    ➣ use .readstatus true or false 
+    
+*⛓️ MODE:* ➠ ${config.MODE} 
+    ➣use .mode public or .mode private
+
+*🧸 AUTO_VOICE:* ➠ ${config.AUTO_VOICE}
+    ➣ use .autovoice true or false
+    
+*🎉 AUTO_STICKER:* ➠ ${config.AUTO_STICKER} 
+    ➣ use .autosticker true or false
+
+*📩 AUTO_REPLY:* ➠ ${config.AUTO_REPLY} 
+   ➣ use .autoreply true or false
+
+*🖼️ ALIVE_IMG:* ➠ ${config.ALIVE_IMG} 
+   ➣ use .aliveimg url
+
+*✅ ALIVE_MSG:* ➠ ${config.ALIVE_MSG} 
+   ➣ usw .setalive
+
+*🚯 ANTI_LINK:* ➠ ${config.ANTI_LINK} 
+   ➣ use .antilink true or false
+
+*❌ ANTI_BAD:* ➠ ${config.ANTI_BAD} 
+   ➣  use .antibad true or false
+
+*🕹️ PREFIX:* ➠ [${config.PREFIX}]
+   ➣ use setprefix (symbol)
+
+*🎙️ FAKE_RECORDING:* ➠ ${config.FAKE_RECORDING} 
+   ➣ use .fakerecording true or false
+
+*🎀 AUTO_REACT:* ➠ ${config.AUTO_REACT} 
+   ➣ use autoreact true or false
+
+*💙 HEART_REACT:* ➠ ${config.HEART_REACT} 
+    ➣ use .heartreact true or false
+
+ *👨‍💻* *OWNER_REACT:* ➠ ${config.OWNER_REACT} 
+    ➣ use .ownereact true or false
+
+*🤖* * BOT_NAME:* ➠ ${config.BOT_NAME}
+    ➣ use setbotname (name)
+
+
+> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ғʀᴀɴᴋ 
+
+*◈┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄◈*
 `
 
 
