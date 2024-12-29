@@ -1,4 +1,4 @@
-
+/*
 
 
 
@@ -69,3 +69,4 @@ cmd({
     statusMessage += `Fake typing: ${FAKE_TYPING ? 'Enabled' : 'Disabled'}`;
     reply(statusMessage);
 });
+*/
