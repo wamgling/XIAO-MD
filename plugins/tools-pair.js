@@ -1,4 +1,4 @@
-const {
+/*const {
   cmd,
   commands
 } = require("../command");
@@ -39,3 +39,4 @@ cmd({
     _0x2b55a0(_0x5be2b9);
   }
 });
+*/
