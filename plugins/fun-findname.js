@@ -17,7 +17,7 @@
 
 
 
-
+/*
 const { cmd } = require("../command");
 const axios = require("axios");
 
@@ -55,3 +55,4 @@ cmd({
         reply("⚠️ *An error occurred while fetching the nationality. Please try again later.*");
     }
 });
+*/
