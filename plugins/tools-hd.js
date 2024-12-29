@@ -1,4 +1,4 @@
-┈┈┈┈┈┈┈SUBZERO┈┈┈┈┈┈
+/*┈┈┈┈┈┈┈SUBZERO┈┈┈┈┈┈
 ╭╮┓┓┳╮┳╭╮┏┳┓┳┳╮╭╮╭╮
 ┃┈┣┫┣┫┃╰╮┈┃┈┃┃┃┣┫╰╮
 ╰╯┛┛┻╰┻╰╯┈┻┈┛┛┛┛┛╰╯
@@ -93,3 +93,4 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
         reply('❌ An error occurred while processing your request.');
     }
 });
+*/
