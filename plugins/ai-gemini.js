@@ -21,7 +21,7 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 
 cmd({
-    pattern: "ai",
+    pattern: "gemini",
     desc: "💬 Chat with Gemini Pro AI",
     react: "🧠",
     category: "ai",
