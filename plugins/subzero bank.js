@@ -1,4 +1,4 @@
-cmd({
+/*cmd({
 pattern: "bank",
 react: "🏦",
 alias: ["balance", "money", "account"],
@@ -118,3 +118,4 @@ async function createAccount(user, accountType) {}
 async function deleteAccount(user) {}
 
 //Franks ❄️
+*/
