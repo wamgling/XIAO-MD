@@ -7,23 +7,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 const { cmd } = require('../command');
 const axios = require('axios');
 const { getBuffer, sleep } = require('../lib/functions'); // Importez vos fonctions utilitaires nécessaires
@@ -85,3 +69,4 @@ cmd({
     conn.sendMessage(from, { text: '❌ An error occurred while fetching the sticker pack. Please try again.' }, { quoted: mek });
   }
 });
+*/
