@@ -1,4 +1,4 @@
-cmd({
+/*cmd({
 pattern: "hangman",
 react: "🛸",
 alias: ["hm"],
@@ -85,3 +85,4 @@ console.error('Hangman command error:', e);
 reply(`Error: ${e.message}`);
 }
 });
+*/
