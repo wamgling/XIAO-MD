@@ -1,7 +1,7 @@
 const { cmd } = require("../command");
 
 cmd({
-    pattern: "subzero",
+    pattern: "subzeroinc",
     desc: "All About The Bot & Dev",
     category: "fun",
     react: "🦄",
