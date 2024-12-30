@@ -14,27 +14,27 @@ cmd({
       *╭┈───────────────•*
       *│*  ◦🗂️ *▢ REPOSITORY*
       *│*   
-      *╵*  *➠* https://github.com/mrfrank-ofc/SUBZERO-MD
+      *╵* https://github.com/mrfrank-ofc/SUBZERO-MD
       *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
       *│*  ◦🔗 *▢ PROJECT NAME*
-      *│*  ◦ *➠* SUBZERO-MD W.A BOT
+      *│* SUBZERO-MD W.A BOT
       *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
       *│*  ◦👨‍💻 *▢ DEVELOPER*
-      *│*  ◦ *➠ https://github.com/mrfrank-ofc
+      *│* https://github.com/mrfrank-ofc
        *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
       *│*  ◦🧮 *▢ RELEASE DATE*
-      *│*  ◦ *➠* 15 December 2024 
+      *│* 15 December 2024 
        *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
       *│*  ◦📩 *▢ SUPPORT GROUP* 
-      *│*  ◦  *➠*https://chat.whatsapp.com/InsR5qk3cBsG2781A6uxcO
+      *│* https://chat.whatsapp.com/InsR5qk3cBsG2781A6uxcO
       *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
       *│*  ◦🎀 *▢ SUPPORT CHANNEL*
-      *│*  ◦  *➠*https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
+      *│* https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
       *│*  ◦
       *│*  ◦🪄 *▢* Hit Me Here :wa.me/263719647303* 
       *╰┈───────────────•*
