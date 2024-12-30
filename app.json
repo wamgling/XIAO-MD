@@ -1,6 +1,6 @@
 {
   "name": "❄️ SUBZERO MD ❄️",
-  "description": "BOT BY MR FRANK",
+  "description": "ICY COLD W.A BOT BY MR FRANJ",
   "logo": "https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg",
   "keywords": ["bot"],
   "success_url": "https://github.com/mrfrank-ofc/SUBZERO-MD",
@@ -22,7 +22,7 @@
     "ALIVE_MSG": {
       "description": "paste your alive message hear.",
       "required": true,
-      "value": "HI DEAR SUBZERO ONLINE.!!♻️"
+      "value": "sᴜʙᴢᴇʀᴏ ᴍᴅ ɪs ᴀʟɪᴠᴇ ♻🔗\n\n© ᴍᴀᴅᴇ ʙʏ ᴍʀ ғʀᴀɴ ᴏғᴄ"
     },
     
     "PREFIX": {
