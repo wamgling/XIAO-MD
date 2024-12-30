@@ -89,7 +89,7 @@ cmd({
 > ＳＵＢＺＥＲＯ - ＭＤ- ＢＯＴ
 
 
-📥 SUBZERO DOWNLOADER 📥
+/`📥 SUBZERO DOWNLOADER 📥/`
 
 ╭─────────────···◈
 ┋ ⟡ fb
@@ -113,7 +113,7 @@ cmd({
 ┋ ⟡ ginisila
 ╰─────────────╶╶···◈
 
-🔎 SEARCH-CMD 🔍
+/`🔎 SEARCH-CMD 🔍/`
 
 ╭─────────────···◈
 ┋ ⟡ yts
@@ -126,7 +126,7 @@ cmd({
 ┋ ⟡ weather
 ╰─────────────╶╶···◈
 
-🧠 AI-CMD 🧠
+/`🧠 AI-CMD 🧠/`
 
 ╭─────────────···◈
 ┋ ⟡ gpt
@@ -138,7 +138,7 @@ cmd({
 ┋ ⟡ subzero
 ╰─────────────╶╶···◈
 
-👨‍💻 OWNER-CMD 👨‍💻
+/`👨‍💻 OWNER-CMD 👨‍💻/`
 
 ╭─────────────···◈
 ┋ ⟡ updatecmd
@@ -159,7 +159,7 @@ cmd({
 ┋ ⟡ restart
 ╰─────────────╶╶···◈
 
-👥 GROUP-CMD 👥
+/`👥 GROUP-CMD 👥/`
 
 ╭─────────────···◈
 ┋ ⟡ remove
@@ -193,7 +193,7 @@ cmd({
 ┋ ⟡ senddm
 ╰─────────────╶╶···◈
 
-📃 INFO-CMD 📃
+/`📃 INFO-CMD 📃/`
 
 ╭─────────────···◈
 ┋ ⟡ menu
@@ -214,7 +214,7 @@ cmd({
 ┋ ⟡ pair
 ╰─────────────╶╶···◈
 
-🎡 CONVERTER-CMD 🎡
+/`🎡 CONVERTER-CMD 🎡/`
 
 ╭─────────────···◈
 ┋ ⟡ sticker
@@ -223,7 +223,7 @@ cmd({
 ┋ ⟡ tgsticker
 ╰─────────────╶╶···◈
 
-⛱️ RANDOM-CMD ⛱️
+/`⛱️ RANDOM-CMD ⛱️/`
 
 ╭─────────────···◈
 ┋ ⟡ subzeroenv
@@ -237,13 +237,13 @@ cmd({
 ┋ ⟡ animegirl5
 ╰─────────────╶╶···◈
 
-🏜️ WALLPAPERS-CMD 🏜️
+/`🏜️ WALLPAPERS-CMD 🏜️/`
 
 ╭─────────────···◈
 ┋ ⟡ img
 ╰─────────────╶╶···◈
 
-🌐 OTHER-CMD 🌐
+/`🌐 OTHER-CMD 🌐/`
 
 ╭─────────────···◈
 ┋ ⟡ trt
