@@ -1,4 +1,4 @@
-
+//SUBZERO PROPERTY
 
 
 
@@ -16,7 +16,7 @@ const { cmd } = require('../command');
 const axios = require('axios');
 
 
-//SUBZERO PROPERTY
+
 // Register the command
 cmd({
     pattern: 'font',
@@ -31,7 +31,7 @@ cmd({
         if (!q) return reply('Please provide text to convert into fonts.');
 
         // Fetch fonts from the API using the provided text
-        let response = await axios.get(`https://www.dark-yasiya-api.site/other/font?text=${encodeURIComponent(q)}`);
+        let response = await axios.get(`https://qaz.wtf/u/convert.cgi?text=${encodeURIComponent(q)}`);
         let result = response.data;
 
         // If the response doesn't have fonts, show an error
