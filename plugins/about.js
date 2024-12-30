@@ -23,7 +23,7 @@ const config = require('../config');
 const {cmd , commands} = require('../command')
 cmd({
     pattern: "about",
-    alias: ["darrell"],
+    alias: ["mrfrank"],
     react: "🧠",
     desc: "get owner dec",
     category: "main",
