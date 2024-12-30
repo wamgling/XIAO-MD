@@ -44,7 +44,7 @@ cmd({
     try {
         // Envoi de la réponse avec l'image et la liste de la famille
         await conn.sendMessage(m.chat, {
-            image: { url: "https://i.postimg.cc/yNf7rQFw/prn.jpg" },
+            image: { url: "https://i.postimg.cc/FHN6KVzM/In-Shot-20241227-205053424.jpg" },
             caption: familyList.trim()
         }, { quoted: mek });
     } catch (error) {
