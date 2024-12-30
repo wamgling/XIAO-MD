@@ -34,19 +34,19 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let repo =`
 *⟣━━━━━━━━━━━━━━━━━━━⟢*
- *BOT OWNER:*
+   👨‍💻   *BOT OWNER:*
  
 > *Darrell Mucheri ( Mr Frank OFC )*
 
- *SUBZERO REPO:*
+   🔗   *SUBZERO REPO:*
  
 > *https://github.com/mrfrank-ofc/SUBZERO-MD*
 
- *SUPPORT GROUP:*
+   🎀  *SUPPORT GROUP:*
  
 > *https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D*
 
- *DEVELOPER NUMBER:*
+  🔎  *DEVELOPER NUMBER:*
  
 > *wa.me/+263718647303/*
 
