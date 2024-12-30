@@ -33,7 +33,7 @@ cmd({
 
     react: "⚙️",
 
-    alias: ["setting","env"],
+    alias: ["subzeroenv","env"],
 
     desc: "Get bot\'s settings list.",
 
