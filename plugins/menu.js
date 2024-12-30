@@ -34,6 +34,8 @@ const {
 const {
   runtime
 } = require("../lib/functions");
+const axios = require('axios');
+const os = require("os");
 cmd({
   'pattern': 'menu',
   'react': '✅',
