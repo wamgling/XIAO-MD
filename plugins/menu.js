@@ -35,6 +35,10 @@ const {
 const {
   runtime
 } = require("../lib/functions");
+  const more = String.fromCharCode(8206);
+const readmore = more.repeat(4001);
+ 
+})
 cmd({
   'pattern': 'menu',
   'react': '✅',
@@ -88,7 +92,7 @@ cmd({
 
 > ＳＵＢＺＥＲＯ - ＭＤ- ＢＯＴ
 
-
+${readmore}
 *📥 SUBZERO DOWNLOADER 📥*
 
 ╭─────────────···◈
