@@ -68,7 +68,7 @@ cmd({
       throw "_`🌻 Reply To image`_";
     }
     let _0x4fb74b = await _0x4f43a6.download();
-    let _0x45ad97 = path.join(os.tmpdir(), 'ManulOfcX');
+    let _0x45ad97 = path.join(os.tmpdir(), 'mrfrankofc');//ManulOfcX
     fs.writeFileSync(_0x45ad97, _0x4fb74b);
     let _0x807e20 = new FormData();
     _0x807e20.append("image", fs.createReadStream(_0x45ad97));
@@ -82,7 +82,7 @@ cmd({
     }
     let _0x56f6ae = _0xf67b93.data.data.url;
     fs.unlinkSync(_0x45ad97);
-    _0x4572c0.reply("*SUBZERO-MD IMG URL 📸*\n " + _0x4fb74b.length + " Byte(s)\n *URL-IMG* 🖇️ " + _0x56f6ae + "\n\n> *⚖️UPLOAD - : © BY SUBZERO ❄️*");
+    _0x4572c0.reply("*SUBZERO-MD IMG URL 📸*\n " + _0x4fb74b.length + " Byte(s)\n *URL-IMG* 🖇️ " + _0x56f6ae + "\n\n> *© ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ sᴜʙᴢᴇʀᴏ ᴍᴅ❄️*");
   } catch (_0x141b19) {
     _0x2cab4a('' + _0x141b19);
     console.log(_0x141b19);
