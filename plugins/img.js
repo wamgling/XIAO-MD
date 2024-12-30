@@ -61,11 +61,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             await conn.sendMessage(from, {
                 image: buffer,
                 caption: `
-*💗Image ${i + 1} from your search!💗*
+*💗 Image ${i + 1} from your search! 💗*
 
- *Enjoy these images! 👾*
+ *©  ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ sᴜʙᴢᴇʀᴏ! 👾*
 
-> 🌈*SUBZERO BOT PLUGINS*🏝️`
+> ❄️ SUBZERO BOT ❄️`
 }, { quoted: mek });
 }
 
