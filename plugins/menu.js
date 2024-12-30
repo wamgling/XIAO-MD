@@ -264,7 +264,7 @@ cmd({
 `;
     await _0xb8d7bb.sendMessage(_0x33bca2, {
       'image': {
-        'url': config.ALIVE_IMG
+        'url': "https://i.postimg.cc/yNf7rQFw/prn.jpg" //config.ALIVE_IMG
       },
       'caption': _0x11578a
     }, {
