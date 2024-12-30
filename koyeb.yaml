@@ -1,0 +1,29 @@
+name: subzeromd
+services:
+  - name: subzero-md-service
+    type: web
+    ports:
+      - 3000
+    routes:
+      - path: "/"
+    build:
+      type: docker
+      dockerfile: ./Dockerfile
+    env:
+      - OWNER_NUMBER=263719647303
+      - MODE=public
+      - PREFIX="."
+      - antidelete=false
+      - ANTI_LINK=false
+      - AUTO_READ_STATUS=false
+      - AUTO_STICKER=false
+      - AUTO_REPLY=false
+      - FAKE_RECORDING=true
+      - ALIVE_MSG="SubZero Md IS ONLINE"
+      - BOT_NAME=SUBZERO-MD
+      - PACK_NAME="SUBZERO V2🚀
+      - AUTO_REACT=false
+      - SESSION_ID="" # Add your session ID here
+    regions:
+      - fra
+      - sin
