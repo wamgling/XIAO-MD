@@ -217,7 +217,7 @@ cmd({
 }) => {
   try {
     if (!_0x380df9) {
-      return _0x233cc6("Please give me a URL or title.");
+      return _0x233cc6("Please give me a URL or title. Eg .play Lily By Alan Walker");
     }
     _0x380df9 = convertYouTubeLink(_0x380df9);
     const _0x54cf3a = await yts(_0x380df9);
@@ -247,7 +247,7 @@ cmd({
             'key': _0x25ddf5.key
           }
         });
-        const _0x1cc9d0 = await fetchJson('https://api.giftedtech.my.id/api/download/ytmp3v2?apikey=gifted&url=' + _0x5ed25e);//https://api.giftedtech.my.id/api/download/dlmp3q?apikey=gifted&quality=128&url= //https://api.giftedtech.my.id/api/download/ytmp3v2?apikey=gifted&url=https://youtu.be/qHDJSRlNhVs?feature=shared
+        const _0x1cc9d0 = await fetchJson('https://api.giftedtech.my.id/api/download/ytaudio?apikey=gifted&url=' + _0x5ed25e);//https://api.giftedtech.my.id/api/download/dlmp3q?apikey=gifted&quality=128&url= //https://api.giftedtech.my.id/api/download/ytmp3v2?apikey=gifted&url=https://youtu.be/qHDJSRlNhVs?feature=shared // https://api.giftedtech.my.id/api/download/ytmp3v2?apikey=gifted&url=
         const _0x5741ec = _0x1cc9d0.result.download_url;
         await _0x5351f6.sendMessage(_0x3277a3, {
           'delete': _0x166c67.key
