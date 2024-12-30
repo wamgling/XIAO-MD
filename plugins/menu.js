@@ -91,12 +91,12 @@ cmd({
             { quoted: mek }
         );*/
 
-        // Send audio
+        /*// Send audio
         await conn.sendMessage(from, {
             audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
             mimetype: 'audio/mp4',
             ptt: true
-        }, { quoted: mek });
+        }, { quoted: mek });*/
     
     
   } catch (_0x44375e) {
