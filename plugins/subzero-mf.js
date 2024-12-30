@@ -12,31 +12,31 @@ cmd({
        *•────────────•⟢*
               
       *╭┈───────────────•*
-      *│*  ◦🗂️ *▢ REPOSITORY*
+      *│*  ◦🗂️ *REPOSITORY*
       *│*   
       *╵* https://github.com/mrfrank-ofc/SUBZERO-MD
       *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
-      *│*  ◦🔗 *▢ PROJECT NAME*
+      *│*  ◦🔗 *PROJECT NAME*
       *│* SUBZERO-MD W.A BOT
       *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
-      *│*  ◦👨‍💻 *▢ DEVELOPER*
+      *│*  ◦👨‍💻 *DEVELOPER*
       *│* https://github.com/mrfrank-ofc
        *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
-      *│*  ◦🧮 *▢ RELEASE DATE*
+      *│*  ◦🧮 *RELEASE DATE*
       *│* 15 December 2024 
        *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
-      *│*  ◦📩 *▢ SUPPORT GROUP* 
+      *│*  ◦📩 *SUPPORT GROUP* 
       *│* https://chat.whatsapp.com/InsR5qk3cBsG2781A6uxcO
       *╰╶╶╶╶╶✲*\n
       *╭┈───────────────•*
-      *│*  ◦🎀 *▢ SUPPORT CHANNEL*
+      *│*  ◦🎀 *SUPPORT CHANNEL*
       *│* https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
-      *│*  ◦
-      *│*  ◦🪄 *▢* Hit Me Here :wa.me/263719647303* 
+      *│*  
+      *│*  ◦🪄  Hit Me Here :wa.me/263719647303* 
       *╰┈───────────────•*
         *•────────────•⟢*
     `;
