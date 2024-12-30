@@ -15,7 +15,7 @@ cmd({
     try {
         // Vérifiez si un mot-clé est fourni
         if (args.length === 0) {
-            return reply(`❗ *Please provide a search query.*\n\n*Example:*\n.google OpenAI`);
+            return reply(`❗ *Please provide a search query.*\n\n*Example:*\n.google SubZero Md Bot`);
         }
 
         const query = args.join(" ");
