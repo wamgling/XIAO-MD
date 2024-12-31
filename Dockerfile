@@ -10,7 +10,7 @@ rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
 
-RUN RUN npm install --production
+RUN npm install --production
 
 COPY . .
 
