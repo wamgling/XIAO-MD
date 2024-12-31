@@ -51,9 +51,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             { quoted: mek }
         );
 
-        // Send audio
-        await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a' },
+        // Send audio //https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3
+        await conn.sendMessage(from, { //https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/blob/main/audios/subzero-menu.mp3
+            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },//https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
