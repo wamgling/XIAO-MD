@@ -1,13 +1,12 @@
 
-
 const {
   cmd,
   commands
 } = require("../command");
 cmd({
   'pattern': 'vv',
-  'alias': ['vo', "viewonce"],
-  'react': '👀',
+  'alias': ['vo', "veiewonce"],
+  'react': '✨',
   'desc': "read vv",
   'category': "download",
   'filename': __filename
