@@ -25,14 +25,14 @@ cmd({
     if (!_0x180808) {
       return _0x2710af("*Please provide a video tital or url*");
     }
-    _0x2710af("*SUBZERO-MD🎬 Downloading video from YouTube...*");
+    _0x2710af("> © SᴜʙZᴇʀᴏ Sᴇɴᴅɪɴɢ Yᴏᴜʀ ᴠɪᴅᴇᴏ Pʟᴇᴀsᴇ Wᴀɪᴛ... ❄️");
     const _0x1c3fd5 = await yts(_0x180808);
     if (!_0x1c3fd5.videos || _0x1c3fd5.videos.length === 0x0) {
       return _0x2710af("❌ No results found for \"" + _0x180808 + "\".");
     }
     const _0x3e0ad8 = _0x1c3fd5.videos[0x0];
     const _0x898f76 = _0x3e0ad8.url;
-    const _0x4200bd = "https://apitest1-f7dcf17bd59b.herokuapp.com/download/ytmp3?url=" + _0x898f76;
+    const _0x4200bd = "https://api.gifted.my.id/api/download/dlmp4?apikey=gifted&url=" + _0x898f76;
     const _0x487ed3 = await axios.get(_0x4200bd);
     if (!_0x487ed3.data.success) {
       return _0x2710af("❌ Failed to fetch video for \"" + _0x180808 + "\".");
@@ -71,7 +71,7 @@ cmd({
     if (!_0x2b4b83) {
       return _0x31fd3f("*Please provide a audio tital or url*");
     }
-    _0x31fd3f("*SubZero MD Downloading audio from YouTube...*");
+    _0x31fd3f("> © SᴜʙZᴇʀᴏ Sᴇɴᴅɪɴɢ Yᴏᴜʀ Sᴏɴɢ Pʟᴇᴀsᴇ Wᴀɪᴛ...❄️");
     const _0x116e0a = await yts(_0x2b4b83);
     if (!_0x116e0a.videos || _0x116e0a.videos.length === 0x0) {
       return _0x31fd3f("❌ No results found for \"" + _0x2b4b83 + "\".");
