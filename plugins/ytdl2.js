@@ -1,3 +1,10 @@
+/*  SSSSS  U   U  BBBBB   ZZZZZ  EEEEE  RRRRR   OOO      M   M   DDDD  
+ S       U   U  B    B     Z   E      R   R  O   O     MM MM   D   D 
+  SSS    U   U  BBBBB     Z    EEEE   RRRRR  O   O     M M M   D   D 
+     S   U   U  B    B   Z     E      R  R   O   O     M   M   D   D 
+  SSSSS   UUU   BBBBB  ZZZZZ  EEEEE  R   R   OOO      M   M   DDDD  
+*/
+
 // Wanna Use My Codes???
 // Give Credits Yah, Mr Frank
 
