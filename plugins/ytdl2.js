@@ -1,3 +1,6 @@
+// Wanna Use My Codes???
+// Give Credits Yah, Mr Frank
+
 const {
   cmd,
   commands
