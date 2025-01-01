@@ -32,7 +32,7 @@ cmd({
     }
     const _0x3e0ad8 = _0x1c3fd5.videos[0x0];
     const _0x898f76 = _0x3e0ad8.url;
-    const _0x4200bd = "https://api.gifted.my.id/api/download/dlmp4?apikey=gifted&url=" + _0x898f76;
+    const _0x4200bd = "https://apitest1-f7dcf17bd59b.herokuapp.com/download/ytmp3?url=" + _0x898f76;
     const _0x487ed3 = await axios.get(_0x4200bd);
     if (!_0x487ed3.data.success) {
       return _0x2710af("❌ Failed to fetch video for \"" + _0x180808 + "\".");
