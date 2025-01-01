@@ -54,28 +54,39 @@ let repo =`
 > *CREATED BY MR FRANK*
 *⟣━━━━━━━━━━━━━━━━━━━⟢*
 `
-await conn.sendMessage(from, { text: repo ,
-  contextInfo: {
-    mentionedJid: [ '' ],
-    groupMentions: [],
-    forwardingScore: 999,
-    isForwarded: false,
-    forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363321386877609@newsletter',
-      newsletterName: "SUBZERO MD",
-      serverMessageId: 999
-    },
-externalAdReply: { 
-title: 'SUBZERO MD',
-body: `${pushname}`,
-mediaType: 1,
-sourceUrl: "https://github.com/mrfrank-ofc/SUBZERO-MD" ,
-thumbnailUrl: "https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg" ,
-renderLargerThumbnail: true,
-showAdAttribution: true
-}
-}}, { quoted: mek})}catch(e){
-console.log(e)
-reply(`${e}`)
-}
+await conn.sendMessage(
+            from,
+            {
+                image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` },
+                caption: dec,
+                contextInfo: {
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363304325601080@newsletter',
+                        newsletterName: '❄️ 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 ❄️',
+                        serverMessageId: 143
+                    }
+                }
+            },
+            { quoted: mek }
+        );
+
+        // Send audio //https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3
+        await conn.sendMessage(from, { //https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/blob/main/audios/subzero-menu.mp3
+            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },//https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a
+            mimetype: 'audio/mp4',
+            ptt: true
+        }, { quoted: mek });
+        
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
 });
+
+
+
+
+//  SUBZERO SC BY MR FRANK
