@@ -62,7 +62,7 @@ cmd({
 });
 cmd({
   'pattern': "play3",
-  'alias': ["yta3", "ytplay3"],
+  'alias': ["song3", "ytplay3"],
   'react': '🔃',
   'desc': "Download audio from YouTube by searching for keywords.",
   'category': "music",
