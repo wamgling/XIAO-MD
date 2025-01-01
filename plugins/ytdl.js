@@ -231,24 +231,7 @@ cmd({
     }, {
       'quoted': _0x1439a7
     });
-      await conn.sendMessage(
-            from,
-            {
-                image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` },
-                caption: dec,
-                contextInfo: {
-                    mentionedJid: [m.sender],
-                    forwardingScore: 999,
-                    isForwarded: true,
-                    forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '❄️ 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 ❄️',
-                        serverMessageId: 143
-                    }
-                }
-            },
-            { quoted: mek }
-        );
+      
 
     const _0x164ac6 = _0x166c67.key.id;
     _0x5351f6.ev.on("messages.upsert", async _0x11c496 => {
