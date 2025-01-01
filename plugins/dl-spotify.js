@@ -17,7 +17,7 @@ async (conn, mek, m, { from, quoted, args, reply }) => {
 
         // Define the API URL with the user-provided Spotify URL
         const spotifyUrl = args[0];
-        const apiUrl = `https://pikabotzapi.vercel.app/downloader/spotifydl/?apikey=anya-md&url=${spotifyUrl}`;
+        const apiUrl = `https://pikabotzapi.vercel.app/downloader/spotifydl/v2/?apikey=anya-md&url=${spotifyUrl}`;
 
         // Fetch data from the API
         const response = await fetch(apiUrl);
