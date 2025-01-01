@@ -81,7 +81,7 @@ console.log(e)
 
 cmd({
     pattern: "ytmp4",
-    alias: ["video2"],
+    alias: ["video3"],
     desc: "To download videos.",
     react: "🎥",
     category: "download",
