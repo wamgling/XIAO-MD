@@ -14,7 +14,7 @@
 © I smell A Noobie Copy Cat🤣⚠
 Bro there is still time to deploy dont clone i repeat dont clone🫡
 ╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
-
+/*
 const config = require('../config');
 const { cmd, commands } = require('../command');
 const os = require("os");
@@ -74,6 +74,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 
-
+*/
 
 //  SUBZERO SC BY MR FRANK
