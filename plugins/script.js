@@ -54,7 +54,7 @@ let repo =`
 > *CREATED BY MR FRANK*
 *⟣━━━━━━━━━━━━━━━━━━━⟢*
 `
-await conn.sendMessage(
+/*await conn.sendMessage(
             from,
             {
                 image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` },
@@ -78,7 +78,7 @@ await conn.sendMessage(
             audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },//https://github.com/JawadYTX/KHAN-DATA/raw/refs/heads/main/autovoice/sigma.m4a
             mimetype: 'audio/mp4',
             ptt: true
-        }, { quoted: mek });
+        }, { quoted: mek });*/
         
     } catch (e) {
         console.log(e);
