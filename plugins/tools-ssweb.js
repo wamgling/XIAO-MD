@@ -1,3 +1,6 @@
+// Want My Code ?
+// Give Credits To Mr Frank
+//wa.me/18062212660
 
 const axios = require("axios");
 const {
@@ -57,7 +60,7 @@ cmd(_0x39ffcf, async (_0x5820ae, _0x1f69a1, _0x3680d6, {
       url: _0x5d99c7.data.screenshotUrl
     };
     const _0x5c238c = {
-      image: _0x270eaa,
+      image: _0x270eaa,//dont touch below u dont wanna regret
       caption: "*`SUBZERO SCREENSHOT WEBSTITE`*\n\n> *© Gᴇɴᴇʀᴀᴛᴇᴅ Bʏ SᴜʙZᴇʀᴏ*"
     };
     const _0x5ab83d = {
