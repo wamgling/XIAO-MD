@@ -4,7 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+      "start": "pm2 start index.js --name SUBZERO-M --deep-monitoring --attach",
+    "stop": "pm2 stop SUBZERO-MD",
+    "restart": "pm2 restart SUBZERO-MD"
   },
   "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
