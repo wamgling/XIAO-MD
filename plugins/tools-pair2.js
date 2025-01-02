@@ -15,7 +15,7 @@ const {
 } = require("../lib/functions");
 cmd({
   'pattern': 'pair2',
-  'alias': ["register", 'paircode2'],
+  'alias': ["register2", 'paircode2'],
   'react': '🔢',
   'desc': "pairing",
   'category': 'download',
@@ -32,7 +32,7 @@ cmd({
     if (!_0x560654) {
       return await _0x2b55a0("*Example - :* .pair 18062212660");
     }
-    const _0x29763b = await fetchJson("subzero-md-session-id-732a5ca058f0.herokuapp.com/code?number=" + _0x560654);
+    const _0x29763b = await fetchJson("https://subzero-v2-session-id.onrender.com/code?number=" + _0x560654);
     const _0x4b5713 = _0x29763b.code;
     _0xefafe8.reply(_0x4b5713 + "\n\n" + "`Here Is Your SubZero MD pairing code...✅`");
   } catch (_0x5be2b9) {
