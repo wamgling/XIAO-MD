@@ -1,42 +1,73 @@
-
 const {
   cmd,
   commands
-} = require("../command");
+} = require('../command');
 const {
-  getBuffer,
-  getGroupAdmins,
-  getRandom,
-  h2k,
-  isUrl,
-  Json,
-  sleep,
   fetchJson
-} = require("../lib/functions");
+} = require('../lib/functions');
 cmd({
   'pattern': 'pair',
-  'alias': ["register", 'link'],
-  'react': '🔢',
+  'alias': ["getpair", "clone"],
+  'react': '✅',
   'desc': "pair",
-  'category': 'download',
-  'use': ".pair +263719647303",
+  'category': "download",
+  'use': ".pair +18062212660",
   'filename': __filename
-}, async (_0x5b297c, _0x3a3e44, _0xefafe8, {
-  from: _0x5aafb9,
-  prefix: _0x322641,
-  quoted: _0x587384,
-  q: _0x560654,
-  reply: _0x2b55a0
+}, async (_0x53ef81, _0x3fcf12, _0x1cac84, {
+  from: _0x2eaa93,
+  prefix: _0x329d70,
+  quoted: _0x297544,
+  q: _0x283a2f,
+  reply: _0x20e232,
+  isGroup: _0x17a4ed
 }) => {
   try {
-    if (!_0x560654) {
-      return await _0x2b55a0("*Example - :* .pair +263719647303");
+    if (_0x17a4ed) {
+      return await _0x20e232("❌ This command is not allowed in group chats. Please use it in my inbox.");
     }
-    const _0x29763b = await fetchJson("https://subxero-session-id.onrender.com/code?number=" + _0x560654);
-    const _0x4b5713 = _0x29763b.code;
-    _0xefafe8.reply(_0x4b5713 + "\n\n" + "`Here Is Your SubZero MD pair code...✅`");
-  } catch (_0x5be2b9) {
-    console.log(_0x5be2b9);
-    _0x2b55a0(_0x5be2b9);
+    if (!_0x283a2f) {
+      return await _0x20e232("*Example - :* .pair +263719647XXX");
+    }
+    await _0x20e232("*Getting pairing code...*");
+    const _0x4504a8 = await fetchJson("https://subxero-session-id.onrender.com/code?number=" + _0x283a2f);
+    const _0x4bc4f7 = _0x4504a8.code;
+    await _0x1cac84.reply('' + _0x4bc4f7);
+    await _0x1cac84.reply("> *Use the above pairing code to get your session id for SUBZERO MD.*");
+  } catch (_0x978c45) {
+    console.error(_0x978c45);
+    _0x20e232("An error occurred: " + _0x978c45.message);
+  }
+});
+cmd({
+  'pattern': 'pair2',
+  'alias': ['getpair2', "clone2"],
+  'react': '✨',
+  'desc': "pair",
+  'category': 'download',
+  'use': ".pair +263718XXX",
+  'filename': __filename
+}, async (_0x44077a, _0x16a498, _0x33b7ac, {
+  from: _0x2edf8e,
+  prefix: _0x5cec58,
+  quoted: _0x42fdaa,
+  q: _0x648b91,
+  reply: _0x205d46,
+  isGroup: _0x5953bb
+}) => {
+  try {
+    if (_0x5953bb) {
+      return await _0x205d46("❌ This command is not allowed in group chats. Please use it in my inbox.");
+    }
+    if (!_0x648b91) {
+      return await _0x205d46("*Example - :* .pair2 +263719647XXX");
+    }
+    await _0x205d46("*Getting pairing code...*");
+    const _0x354115 = await fetchJson('https://subxero-session-id.onrender.com/code?number=' + _0x648b91);
+    const _0x35dcc0 = _0x354115.code;
+    await _0x33b7ac.reply('' + _0x35dcc0);
+    await _0x33b7ac.reply("> *Use the above pairing code to get your session id for SUBZERO-MD.*");
+  } catch (_0x4da84d) {
+    console.error(_0x4da84d);
+    _0x205d46("An error occurred: " + _0x4da84d.message);
   }
 });
