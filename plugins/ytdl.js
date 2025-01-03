@@ -605,8 +605,8 @@ cmd({
   }
 });
 cmd({
-  'pattern': "yta",
-  'alias': "ytmp3",
+  'pattern': "dee",
+  'alias': "dilolo",
   'react': '⬇️',
   'dontAddCommandList': true,
   'filename': __filename
