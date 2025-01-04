@@ -1,147 +1,221 @@
-const {
-  cmd
-} = require('../command');
-const sleep = _0x28b89a => new Promise(_0x3ad2ff => setTimeout(_0x3ad2ff, _0x28b89a));
-cmd({
-  'pattern': 'removemembers',
-  'alias': ["kickall", 'endgc', "endgroup"],
-  'desc': "Remove all non-admin members from the group.",
-  'react': '🎉',
-  'category': "group",
-  'filename': __filename
-}, async (_0x541c7c, _0x28ecd0, _0x2ebb28, {
-  from: _0x3ec016,
-  groupMetadata: _0x561a47,
-  groupAdmins: _0x4abe0f,
-  isBotAdmins: _0x119769,
-  senderNumber: _0x112bfc,
-  reply: _0x1cd54a,
-  isGroup: _0x2d9dc6
-}) => {
-  try {
-    if (!_0x2d9dc6) {
-      return _0x1cd54a("This command can only be used in groups.");
-    }
-    const _0x5ad0e2 = _0x541c7c.user.id.split(':')[0x0];
-    if (_0x112bfc !== _0x5ad0e2) {
-      return _0x1cd54a("Only the bot owner can use this command.");
-    }
-    if (!_0x119769) {
-      return _0x1cd54a("I need to be an admin to execute this command.");
-    }
-    const _0x27054b = _0x561a47.participants;
-    const _0x59ce1d = _0x27054b.filter(_0x31bd1b => !_0x4abe0f.includes(_0x31bd1b.id));
-    if (_0x59ce1d.length === 0x0) {
-      return _0x1cd54a("There are no non-admin members to remove.");
-    }
-    _0x1cd54a("Starting to remove " + _0x59ce1d.length + " non-admin members...");
-    for (let _0x58a736 of _0x59ce1d) {
-      try {
-        await _0x541c7c.groupParticipantsUpdate(_0x3ec016, [_0x58a736.id], 'remove');
-        await sleep(0x7d0);
-      } catch (_0x448767) {
-        console.error("Failed to remove " + _0x58a736.id + ':', _0x448767);
-      }
-    }
-    _0x1cd54a("Successfully removed all non-admin members from the group.");
-  } catch (_0x2ffa0d) {
-    console.error("Error removing non-admin users:", _0x2ffa0d);
-    _0x1cd54a("An error occurred while trying to remove non-admin members. Please try again.");
-  }
-});
-cmd({
-  'pattern': "removeadmins",
-  'alias': ["kickadmins", "kickall3", "deladmins"],
-  'desc': "Remove all admin members from the group, excluding the bot and bot owner.",
-  'react': '🎉',
-  'category': "group",
-  'filename': __filename
-}, async (_0x2c9a95, _0x3d19b1, _0x5d9806, {
-  from: _0x49bf85,
-  isGroup: _0x437d8e,
-  senderNumber: _0x39ac26,
-  groupMetadata: _0x45af2,
-  groupAdmins: _0x59d911,
-  isBotAdmins: _0x25f378,
-  reply: _0x454a95
-}) => {
-  try {
-    if (!_0x437d8e) {
-      return _0x454a95("This command can only be used in groups.");
-    }
-    const _0x86850b = _0x2c9a95.user.id.split(':')[0x0];
-    if (_0x39ac26 !== _0x86850b) {
-      return _0x454a95("Only the bot owner can use this command.");
-    }
-    if (!_0x25f378) {
-      return _0x454a95("I need to be an admin to execute this command.");
-    }
-    const _0x5251dc = _0x45af2.participants;
-    const _0x3468fe = _0x5251dc.filter(_0x6832c1 => _0x59d911.includes(_0x6832c1.id) && _0x6832c1.id !== _0x2c9a95.user.id && _0x6832c1.id !== _0x86850b + "@s.whatsapp.net");
-    if (_0x3468fe.length === 0x0) {
-      return _0x454a95("There are no admin members to remove.");
-    }
-    _0x454a95("Starting to remove " + _0x3468fe.length + " admin members, excluding the bot and bot owner...");
-    for (let _0x164699 of _0x3468fe) {
-      try {
-        await _0x2c9a95.groupParticipantsUpdate(_0x49bf85, [_0x164699.id], 'remove');
-        await sleep(0x7d0);
-      } catch (_0x1b4051) {
-        console.error("Failed to remove " + _0x164699.id + ':', _0x1b4051);
-      }
-    }
-    _0x454a95("Successfully removed all admin members from the group, excluding the bot and bot owner.");
-  } catch (_0x2a5e6b) {
-    console.error("Error removing admins:", _0x2a5e6b);
-    _0x454a95("An error occurred while trying to remove admins. Please try again.");
-  }
-});
-cmd({
-  'pattern': "removeall2",
-  'alias': ["kickall2", "endgc2", "endgroup2"],
-  'desc': "Remove all members and admins from the group, excluding the bot and bot owner.",
-  'react': '🎉',
-  'category': "group",
-  'filename': __filename
-}, async (_0x58df9b, _0x205354, _0x4f7c7c, {
-  from: _0xc8fca7,
-  isGroup: _0x4daea3,
-  senderNumber: _0x270b3f,
-  groupMetadata: _0x5289f6,
-  isBotAdmins: _0x1db97d,
-  reply: _0x477905
-}) => {
-  try {
-    if (!_0x4daea3) {
-      return _0x477905("This command can only be used in groups.");
-    }
-    const _0x3fdab4 = _0x58df9b.user.id.split(':')[0x0];
-    if (_0x270b3f !== _0x3fdab4) {
-      return _0x477905("Only the bot owner can use this command.");
-    }
-    if (!_0x1db97d) {
-      return _0x477905("I need to be an admin to execute this command.");
-    }
-    const _0x44e3d7 = _0x5289f6.participants;
-    if (_0x44e3d7.length === 0x0) {
-      return _0x477905("The group has no members to remove.");
-    }
-    const _0x94c1ea = _0x44e3d7.filter(_0x29a3c7 => _0x29a3c7.id !== _0x58df9b.user.id && _0x29a3c7.id !== _0x3fdab4 + "@s.whatsapp.net");
-    if (_0x94c1ea.length === 0x0) {
-      return _0x477905("No members to remove after excluding the bot and bot owner.");
-    }
-    _0x477905("Starting to remove " + _0x94c1ea.length + " members, excluding the bot and bot owner...");
-    for (let _0x447569 of _0x94c1ea) {
-      try {
-        await _0x58df9b.groupParticipantsUpdate(_0xc8fca7, [_0x447569.id], "remove");
-        await sleep(0x7d0);
-      } catch (_0x2fc4ea) {
-        console.error("Failed to remove " + _0x447569.id + ':', _0x2fc4ea);
-      }
-    }
-    _0x477905("Successfully removed all members, excluding the bot and bot owner, from the group.");
-  } catch (_0x191e55) {
-    console.error("Error removing members:", _0x191e55);
-    _0x477905("An error occurred while trying to remove members. Please try again.");
-  }
-});
+
+/*
+
+$$$$$$\            $$\                                               
+$$  __$$\           $$ |                                              
+$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
+\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
+ \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
+$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
+\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
+ \______/  \______/ \_______/ \________| \_______|\__|       \______/
+
+Project Name : SubZero MD
+Creator      : Darrell Mucheri ( Mr Frank OFC )
+Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
+Support      : wa.me/18062212660
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const _0x4d9384=_0x124a;(function(_0x4a5a4d,_0x5cc5d4){const _0x2d6d82=_0x124a,_0x31f3a3=_0x4a5a4d();while(!![]){try{const _0x5170e8=-parseInt(_0x2d6d82(0x183))/0x1*(-parseInt(_0x2d6d82(0x173))/0x2)+parseInt(_0x2d6d82(0x171))/0x3*(-parseInt(_0x2d6d82(0x16b))/0x4)+parseInt(_0x2d6d82(0x18c))/0x5*(-parseInt(_0x2d6d82(0x16c))/0x6)+parseInt(_0x2d6d82(0x187))/0x7+parseInt(_0x2d6d82(0x17a))/0x8+parseInt(_0x2d6d82(0x194))/0x9+parseInt(_0x2d6d82(0x16d))/0xa*(parseInt(_0x2d6d82(0x191))/0xb);if(_0x5170e8===_0x5cc5d4)break;else _0x31f3a3['push'](_0x31f3a3['shift']());}catch(_0x522bf0){_0x31f3a3['push'](_0x31f3a3['shift']());}}}(_0x4ae3,0x202b6));function hi(){const _0x5db7f8=_0x124a;console[_0x5db7f8(0x199)]('Hello\x20World!');}function _0x124a(_0x507b09,_0x366e45){const _0x4ae3ab=_0x4ae3();return _0x124a=function(_0x124ad0,_0x11c3e1){_0x124ad0=_0x124ad0-0x168;let _0x42fae3=_0x4ae3ab[_0x124ad0];return _0x42fae3;},_0x124a(_0x507b09,_0x366e45);}hi();const {cmd}=require(_0x4d9384(0x18a)),sleep=_0xecf6c2=>new Promise(_0x3c3251=>setTimeout(_0x3c3251,_0xecf6c2));cmd({'pattern':_0x4d9384(0x16a),'alias':[_0x4d9384(0x175),'endgc',_0x4d9384(0x168)],'desc':_0x4d9384(0x16f),'react':'🎉','category':'group','filename':__filename},async(_0x314de4,_0x2ccb20,_0x194ba0,{from:_0x4ed2fb,groupMetadata:_0x4d975a,groupAdmins:_0x308d5b,isBotAdmins:_0x538199,senderNumber:_0x2f38d5,reply:_0x11bb58,isGroup:_0x4264ae})=>{const _0x5c2c55=_0x4d9384;try{if(!_0x4264ae)return _0x11bb58(_0x5c2c55(0x18b));const _0x175ca3=_0x314de4[_0x5c2c55(0x198)]['id'][_0x5c2c55(0x19d)](':')[0x0];if(_0x2f38d5!==_0x175ca3)return _0x11bb58(_0x5c2c55(0x18d));if(!_0x538199)return _0x11bb58('I\x20need\x20to\x20be\x20an\x20admin\x20to\x20execute\x20this\x20command.');const _0x28cdc9=_0x4d975a['participants'],_0x5e08a5=_0x28cdc9[_0x5c2c55(0x17d)](_0x6914ee=>!_0x308d5b[_0x5c2c55(0x185)](_0x6914ee['id']));if(_0x5e08a5[_0x5c2c55(0x172)]===0x0)return _0x11bb58(_0x5c2c55(0x180));_0x11bb58(_0x5c2c55(0x17c)+_0x5e08a5['length']+_0x5c2c55(0x179));for(let _0x159d74 of _0x5e08a5){try{await _0x314de4['groupParticipantsUpdate'](_0x4ed2fb,[_0x159d74['id']],_0x5c2c55(0x169)),await sleep(0x7d0);}catch(_0x10982b){console['error']('Failed\x20to\x20remove\x20'+_0x159d74['id']+':',_0x10982b);}}_0x11bb58(_0x5c2c55(0x178));}catch(_0x1f1c91){console[_0x5c2c55(0x19b)]('Error\x20removing\x20non-admin\x20users:',_0x1f1c91),_0x11bb58(_0x5c2c55(0x176));}}),cmd({'pattern':_0x4d9384(0x17e),'alias':['kickadmins',_0x4d9384(0x174),'deladmins'],'desc':_0x4d9384(0x19a),'react':'🎉','category':_0x4d9384(0x170),'filename':__filename},async(_0x2e3360,_0x5869eb,_0x466151,{from:_0x250c15,isGroup:_0xa13087,senderNumber:_0xe0b9df,groupMetadata:_0x5142d6,groupAdmins:_0x3065f8,isBotAdmins:_0x3a21e2,reply:_0x54c961})=>{const _0x220a0c=_0x4d9384;try{if(!_0xa13087)return _0x54c961(_0x220a0c(0x18b));const _0x7360c9=_0x2e3360['user']['id']['split'](':')[0x0];if(_0xe0b9df!==_0x7360c9)return _0x54c961(_0x220a0c(0x18d));if(!_0x3a21e2)return _0x54c961(_0x220a0c(0x196));const _0x3ab94c=_0x5142d6[_0x220a0c(0x182)],_0x48f09c=_0x3ab94c[_0x220a0c(0x17d)](_0x2a5176=>_0x3065f8[_0x220a0c(0x185)](_0x2a5176['id'])&&_0x2a5176['id']!==_0x2e3360[_0x220a0c(0x198)]['id']&&_0x2a5176['id']!==_0x7360c9+_0x220a0c(0x197));if(_0x48f09c[_0x220a0c(0x172)]===0x0)return _0x54c961(_0x220a0c(0x16e));_0x54c961('Starting\x20to\x20remove\x20'+_0x48f09c[_0x220a0c(0x172)]+_0x220a0c(0x188));for(let _0x37d81a of _0x48f09c){try{await _0x2e3360['groupParticipantsUpdate'](_0x250c15,[_0x37d81a['id']],_0x220a0c(0x169)),await sleep(0x7d0);}catch(_0x3c0680){console[_0x220a0c(0x19b)](_0x220a0c(0x19c)+_0x37d81a['id']+':',_0x3c0680);}}_0x54c961(_0x220a0c(0x190));}catch(_0x1e4a11){console[_0x220a0c(0x19b)](_0x220a0c(0x17f),_0x1e4a11),_0x54c961(_0x220a0c(0x181));}}),cmd({'pattern':_0x4d9384(0x18e),'alias':[_0x4d9384(0x186),_0x4d9384(0x17b),_0x4d9384(0x193)],'desc':_0x4d9384(0x192),'react':'🎉','category':_0x4d9384(0x170),'filename':__filename},async(_0x283023,_0x52add4,_0x47ad54,{from:_0x585974,isGroup:_0x2b3000,senderNumber:_0x34b349,groupMetadata:_0x3c78e1,isBotAdmins:_0x1f374,reply:_0x237042})=>{const _0x4ab676=_0x4d9384;try{if(!_0x2b3000)return _0x237042(_0x4ab676(0x18b));const _0x26bfae=_0x283023['user']['id'][_0x4ab676(0x19d)](':')[0x0];if(_0x34b349!==_0x26bfae)return _0x237042(_0x4ab676(0x18d));if(!_0x1f374)return _0x237042(_0x4ab676(0x196));const _0x3cf552=_0x3c78e1[_0x4ab676(0x182)];if(_0x3cf552[_0x4ab676(0x172)]===0x0)return _0x237042(_0x4ab676(0x184));const _0x972b0a=_0x3cf552[_0x4ab676(0x17d)](_0x272c30=>_0x272c30['id']!==_0x283023['user']['id']&&_0x272c30['id']!==_0x26bfae+_0x4ab676(0x197));if(_0x972b0a[_0x4ab676(0x172)]===0x0)return _0x237042('No\x20members\x20to\x20remove\x20after\x20excluding\x20the\x20bot\x20and\x20bot\x20owner.');_0x237042(_0x4ab676(0x17c)+_0x972b0a[_0x4ab676(0x172)]+'\x20members,\x20excluding\x20the\x20bot\x20and\x20bot\x20owner...');for(let _0x328ca6 of _0x972b0a){try{await _0x283023[_0x4ab676(0x18f)](_0x585974,[_0x328ca6['id']],_0x4ab676(0x169)),await sleep(0x7d0);}catch(_0x1eeea9){console[_0x4ab676(0x19b)](_0x4ab676(0x19c)+_0x328ca6['id']+':',_0x1eeea9);}}_0x237042(_0x4ab676(0x195));}catch(_0x4178b9){console[_0x4ab676(0x19b)](_0x4ab676(0x189),_0x4178b9),_0x237042(_0x4ab676(0x177));}});function _0x4ae3(){const _0x21f596=['Remove\x20all\x20admin\x20members\x20from\x20the\x20group,\x20excluding\x20the\x20bot\x20and\x20bot\x20owner.','error','Failed\x20to\x20remove\x20','split','endgroup','remove','removemembers','4mgKdcJ','6mdoaNp','20OYOLwg','There\x20are\x20no\x20admin\x20members\x20to\x20remove.','Remove\x20all\x20non-admin\x20members\x20from\x20the\x20group.','group','631212XrPrbt','length','55652AmcpLK','kickall3','kickall','An\x20error\x20occurred\x20while\x20trying\x20to\x20remove\x20non-admin\x20members.\x20Please\x20try\x20again.','An\x20error\x20occurred\x20while\x20trying\x20to\x20remove\x20members.\x20Please\x20try\x20again.','Successfully\x20removed\x20all\x20non-admin\x20members\x20from\x20the\x20group.','\x20non-admin\x20members...','987016meHSNZ','endgc2','Starting\x20to\x20remove\x20','filter','removeadmins','Error\x20removing\x20admins:','There\x20are\x20no\x20non-admin\x20members\x20to\x20remove.','An\x20error\x20occurred\x20while\x20trying\x20to\x20remove\x20admins.\x20Please\x20try\x20again.','participants','4yKVzmq','The\x20group\x20has\x20no\x20members\x20to\x20remove.','includes','kickall2','892367Gyxikh','\x20admin\x20members,\x20excluding\x20the\x20bot\x20and\x20bot\x20owner...','Error\x20removing\x20members:','../command','This\x20command\x20can\x20only\x20be\x20used\x20in\x20groups.','358740xwJxjc','Only\x20the\x20bot\x20owner\x20can\x20use\x20this\x20command.','removeall2','groupParticipantsUpdate','Successfully\x20removed\x20all\x20admin\x20members\x20from\x20the\x20group,\x20excluding\x20the\x20bot\x20and\x20bot\x20owner.','112596tTpnFU','Remove\x20all\x20members\x20and\x20admins\x20from\x20the\x20group,\x20excluding\x20the\x20bot\x20and\x20bot\x20owner.','endgroup2','281556rVUTgS','Successfully\x20removed\x20all\x20members,\x20excluding\x20the\x20bot\x20and\x20bot\x20owner,\x20from\x20the\x20group.','I\x20need\x20to\x20be\x20an\x20admin\x20to\x20execute\x20this\x20command.','@s.whatsapp.net','user','log'];_0x4ae3=function(){return _0x21f596;};return _0x4ae3();}

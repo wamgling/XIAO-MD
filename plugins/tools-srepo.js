@@ -1,3 +1,216 @@
+/*
+
+$$$$$$\            $$\                                               
+$$  __$$\           $$ |                                              
+$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
+\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
+ \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
+$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
+\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
+ \______/  \______/ \_______/ \________| \_______|\__|       \______/
+
+Project Name : SubZero MD
+Creator      : Darrell Mucheri ( Mr Frank OFC )
+Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
+Support      : wa.me/18062212660
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const axios = require('axios');
 const {
   cmd,
@@ -7,7 +220,7 @@ cmd({
   'pattern': "srepo",
   'desc': "Fetch information about a GitHub repository.",
   'category': "other",
-  'react': '🍃',
+  'react': '📂',
   'filename': __filename
 }, async (_0x50251e, _0x14f82c, _0x4b5519, {
   from: _0x4efb12,
@@ -41,7 +254,7 @@ cmd({
     const _0x1710d7 = "https://api.github.com/repos/" + _0x4316bb;
     const _0x5e6198 = await axios.get(_0x1710d7);
     const _0x3b32a2 = _0x5e6198.data;
-    let _0x5966d9 = "📁_*GITHUB REPO INFO BY SUBZERO MD*_📁\n\n";
+    let _0x5966d9 = "📁*GITHUB REPO INFO BY SUBZERO MD*📁\n\n";
     _0x5966d9 += "📌 *ɴᴀᴍᴇ*: " + _0x3b32a2.name + "\n";
     _0x5966d9 += "🔗 *ᴜʀʟ*: " + _0x3b32a2.html_url + "\n";
     _0x5966d9 += "📝 *ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ*: " + _0x3b32a2.description + "\n";
