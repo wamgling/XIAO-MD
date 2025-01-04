@@ -2,6 +2,18 @@
   <h1 align="center">SUBZERO-MD</h1>
 </p>
 
+## 🔗 SUBZERO-MD INFO
+
+  <p align="center">
+<a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/mrfrank-ofc?color=blue&style=flat-square"></a>
+<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
+<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/mrfrank-ofc/SUBZERO-MD?style=flat-square&color=green"></a>
+<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+</p>
+<p align='center'>
+</p>
+
 > **`Current Bot Version` 1.0.3**
 ---
 
@@ -61,14 +73,14 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 > **Pair Code (Session ID)**
 
-<a href='tinyurl.com/subzero-md-session-id' target="_blank">
+<a href='https://subzero-md-ultraa.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-orange?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
 
 > **Pair Code (Session ID)**
 
-<a href='tinyurl.com/subzero-md-session-id' target="_blank">
+<a href='https://subzero-md-ultraa.onrender.com' target="_blank">
   <img alt='Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-darkpink?style=for-the-badge&logo=opencv&logoColor=black'/>
 </a>
 <br> 
@@ -114,7 +126,7 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 <p align="center">
 <a href='https://app.koyeb.com/services/deploy?type=git&repository=mrfrank-ofc/SUBZERO-MD&ports=3000&env[PREFIX]=.&env[SESSION_ID]=&env[ALWAYS_ONLINE]=false&env[MODE]=public&env[AUTO_STATUS_MSG]=Seen%20status%20by%20SUBZERO-MD&env[AUTO_STATUS_REPLY]=false&env[AUTO_STATUS_SEEN]=true&env[AUTO_TYPING]=false&env[ANTI_LINK]=true&env[AUTO_REACT]=false&env[READ_MESSAGE]=false' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-koyeb ‎ deploy-FF009D?style=for-the-badge&logo=koyeb&logoColor=white'/< width=150 height=28/p></a>
-------------
+
 
 ### <br>  ❖ DEPLOY_RAILWAY ❖
 
@@ -125,7 +137,7 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
 
 <p align="center">
 <a href='https://railway.app/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-railway deploy-FF8700?style=for-the-badge&logo=railway&logoColor=white'/< width=150 height=28/p></a>
---------
+
 
 ### <br>   ❖ DEPLOY_RENDER ❖
 
@@ -137,7 +149,7 @@ You will need a session ID to run the SUBZERO-MD. Click the button below to obta
   
 <p align="center">
 <a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColot=white'/< width=150 height=28/p></a>
---------
+
 
 <h4 align="center">6. Netlify</h4>
 <p style="text-align: center; font-size: 1.2em;">
@@ -208,17 +220,7 @@ jobs:
 
 ***
 
-## 🔗 SUBZERO-MD INFO
 
-  <p align="center">
-<a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/mrfrank-ofc?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/mrfrank-ofc/SUBZERO-MD?style=flat-square&color=green"></a>
-<a href="https://github.com/mrfrank-ofc/SUBZERO-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
-</p>
-<p align='center'>
-</p>
 
 
 ## 🌐 WhatsApp Channel 
@@ -248,7 +250,7 @@ Stay connected with the latest updates and community by joining our official Wha
 
 ---
 
-### Thanks To Team ⤵️
+### Thank You Dear
 
 > DEVELOPER OF SUBZERO-MD 
 - [Mr Frank ](https://github.com/mrfrank-ofc)
@@ -269,7 +271,7 @@ Stay connected with the latest updates and community by joining our official Wha
 </h3>
 
 <br>
-------
+
 Thank you KHAN, SILENT SOBX, KERM & you supporters
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
