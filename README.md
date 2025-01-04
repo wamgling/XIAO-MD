@@ -2,8 +2,6 @@
   <h1 align="center">SUBZERO-MD</h1>
 </p>
 
-## 🔗 SUBZERO-MD INFO
-
   <p align="center">
 <a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/mrfrank-ofc?color=blue&style=flat-square"></a>
 <a href="https://github.com/mrfrank-ofc/SUBZERO-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mrfrank-ofc/SUBZERO-MD?color=blue&style=flat-square"></a>
