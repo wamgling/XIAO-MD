@@ -1,4 +1,4 @@
-const axios = require('axios');
+/*const axios = require('axios');
 const { cmd } = require('../command');
 
 cmd({
@@ -37,3 +37,4 @@ async (conn, mek, m, { from, reply, text }) => {
         reply("There was an issue while chatting with the bot. Please try again later.");
     }
 });
+*/
