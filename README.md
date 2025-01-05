@@ -255,7 +255,7 @@ Stay connected with the latest updates and community by joining our official Wha
 - Creater and Owner Of SUBZERO-MD
 
 > SUBZERO-MD Helper
-- [Frank](https://github.com/efkidgamer)
+- [Frank](https://github.com/efkidgamerdev)
 - For helping in bot plugin files.
 ---
 
