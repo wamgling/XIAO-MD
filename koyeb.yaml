@@ -3,7 +3,7 @@ services:
   - name: subzero-md-service
     type: web
     ports:
-      - 3000
+      - 5000
     routes:
       - path: "/"
     build:
