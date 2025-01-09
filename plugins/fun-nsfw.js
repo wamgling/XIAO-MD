@@ -1,7 +1,22 @@
 /*
-SUBZERO MD
 Credits To - Github: Kgtech-cmr
+
+
+$$$$$$\            $$\                                               
+$$  __$$\           $$ |                                              
+$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
+\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
+ \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
+$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
+\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
+ \______/  \______/ \_______/ \________| \_______|\__|       \______/
+
+Project Name : SubZero MD
+Creator      : Darrell Mucheri ( Mr Frank OFC )
+Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
+Support      : wa.me/18062212660
 */
+
 
 
 
@@ -38,8 +53,8 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
 ────────────────
 *_Simply type the number corresponding to the option you'd like to choose._*
 ────────────────
-\`[⚠️ NOTICE]\` 
-*By Continueing You Agree that you are 18+ . *`;
+⚠️\`[NOTICE]\` 
+*By Continueing You Agree that you are 18+ .*`;
 
         // URL image for NSFW
         const imageUrl = 'https://i.ibb.co/j8hv83f/Manul-Ofc-X.jpg';
