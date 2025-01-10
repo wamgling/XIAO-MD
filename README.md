@@ -269,10 +269,11 @@ Stay connected with the latest updates and community by joining our official Wha
 </h3>
 
 <br>
-```
-Thank you KHAN, SILENT SOBX, KERM & you supporters
 
 ```
+Thank you KHAN, SILENT SOBX, KERM & you supporters
+```
+-----
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ------
